@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 export function Menu() {
   return (
     <>
-      <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+      <nav className="navbar navbar-expand-lg bg-light">
+        <div className="container-fluid">
+          <a className="navbar-brand" href="#">
             Navbar
           </a>
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNav"
@@ -17,27 +17,27 @@ export function Menu() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <Link class="nav-link active" aria-current="page" to="/">
+          <div className="collapse navbar-collapse" id="navbarNav">
+            <ul className="navbar-nav">
+              <li className="nav-item">
+                <Link className="nav-link active" aria-current="page" to="/">
                   Home
                 </Link>
               </li>
-              <li class="nav-item">
-                <Link class="nav-link" to="/members">
-                  Features
+              <li className="nav-item">
+                <Link className="nav-link" to="/history">
+                  History
                 </Link>
               </li>
-              <li class="nav-item">
-                <Link class="nav-link" to="/history">
-                  Pricing
+              <li className="nav-item">
+                <Link className="nav-link" to="/members">
+                  Members
                 </Link>
               </li>
-              <li class="nav-item">
-                <Link class="nav-link disabled" to="/albums">
+              <li className="nav-item">
+                <Link className="nav-link disabled" to="/albums">
                   Albums
                 </Link>
               </li>

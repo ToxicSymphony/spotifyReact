@@ -1,11 +1,11 @@
+import './History.css'
+import { Carrusel } from '../Carrusel/Carrusel'
+
 export function History(){
     return(
         <>
 
-            <h1>
-                Hola soy historia
-            </h1>
-        
+            <Carrusel></Carrusel> 
         </>
     )
 }
