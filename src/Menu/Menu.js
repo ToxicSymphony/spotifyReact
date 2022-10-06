@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 export function Menu() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-light">
+      <nav className="navbar navbar-expand-lg bg-dark navbar-dark">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand  text-warning fw-bold" href="#">
             Navbar
           </a>
           <button
@@ -22,22 +22,22 @@ export function Menu() {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to="/">
+                <Link className="nav-link active  text-warning" aria-current="page" to="/">
                   Home
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/history">
+                <Link className="nav-link  text-warning" to="/history">
                   History
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/members">
+                <Link className="nav-link  text-warning" to="/members">
                   Members
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link disabled" to="/albums">
+                <Link className="nav-link  text-warning" to="/albums">
                   Albums
                 </Link>
               </li>
