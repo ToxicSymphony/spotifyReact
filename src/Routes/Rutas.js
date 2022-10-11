@@ -3,7 +3,8 @@ import {Home} from "../Home/Home.js"
 import {History} from "../History/History.js"
 import {Menu} from "../Menu/Menu.js"
 import {Albums} from "../Albums/Albums.js"
-import {Members} from "../Members/Members.js"
+
+import {Musicos} from "../Musicos/Musicos.js"
 
 export function Rutas() {
     return (
@@ -12,7 +13,7 @@ export function Rutas() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="history" element={<History />} />
-          <Route path="members" element={<Members />} />
+          <Route path="musicos" element={<Musicos />} />
           <Route path="albums" element={<Albums />} />
         </Routes>
       </div>

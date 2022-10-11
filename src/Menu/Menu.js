@@ -32,8 +32,8 @@ export function Menu() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link  text-warning" to="/members">
-                  Members
+                <Link className="nav-link  text-warning" to="/musicos">
+                  Musicos
                 </Link>
               </li>
               <li className="nav-item">

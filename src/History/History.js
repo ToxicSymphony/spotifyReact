@@ -1,7 +1,7 @@
 import './History.css'
-import { Carrusel } from '../Carrusel/Carrusel'
-import { Members } from '../Members/Members'
-import { Footer } from '../Footer/Footer'
+import { Carrusel } from '../Carrusel/Carrusel.js'
+import { Members } from '../Members/Members.js'
+import { Footer } from '../Footer/Footer.js'
 
 export function History(){
     return(
