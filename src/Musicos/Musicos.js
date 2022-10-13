@@ -54,7 +54,7 @@ export function Musicos() {
       pais: "Mexico",
       descripcion:
         "Sí, había que ponerlo y aquí está. Vive en nuestros recuerdos y en la cultura de todos los amantes de la música electrónica en México. Hayas estado ahí o no, ese concierto es y permanecerá siendo el epicentro de miles de conversaciones en fiestas y reuniones de los melómanos mexicanos. Si bien Daft Punk dio otros conciertazos como el del Makuhari Messe International Exhibition Hall en Japón, hechos más que nada por el ambiente que le puso el público, los mexicanos somos conocidos mundialmente por echar el mejor desmadre relajo. Somos conocidos como uno de los mejores públicos del mundo, y su presentación del Alive 2007 no fue para nada la excepción. Sus rolas fueron amadas, fueron cantadas y fueron bailadas con euforia en el Palacio de los Deportes. La pirámide que albergó a los robots en su última gira se iluminó abajo del domo para mostrarle a México el nuevo camino que tomaría la música electrónica.",
-      foto: "https://firebasestorage.googleapis.com/v0/b/fotosanotojobs.appspot.com/o/mexicodaftpunk.jpg?alt=media&token=85587bfa-5da8-4b91-83bb-6746af583c32",
+      foto: "https://firebasestorage.googleapis.com/v0/b/fotosanotojobs.appspot.com/o/mexicodaftpunk.jpg?alt=media&token=91204f1b-d96a-4164-b26e-fda1899a0c92",
     },
   ];
 
@@ -87,17 +87,17 @@ export function Musicos() {
         <div className="row ">
           {conciertosMemorables.map((concierto) => {
             return (
-              <div className="row row-md-4 g-3 text-center">
+              <div className="row row-cols-1 row-md-4 g-3 text-center">
                 <div className="card shadow bg-dark text-warning border border-warning h-100 ">
                   <div className="row justify-content-around">
-                    <div className="col-3  align-self-center">
+                    <div className="col-3 align-self-center my-3  ">
                       <img
                         src={concierto.foto}
-                        className="img-fluid w-100 mt "
+                        className="img-fluid w-100"
                         alt="foto"
                       ></img>
                     </div>
-                    <div className="col-3  align-self-center">
+                    <div className="col-3 align-self-center ">
                       <h1>{concierto.pais}</h1>
                       <h2>{concierto.fecha}</h2>
                     </div>
@@ -114,8 +114,8 @@ export function Musicos() {
                           Mas Informacion
                         </a>
                       </p>
-                      <div class="collapse" id="collapseExample">
-                        <div class="card card-body bg-dark border border-warning">
+                      <div className="collapse" id="collapseExample">
+                        <div className="card card-body bg-dark border border-warning">
                           <p>{concierto.descripcion}</p>
                         </div>
                       </div>
@@ -128,7 +128,7 @@ export function Musicos() {
         </div>
       </div>
 
-      <div >
+      <div>
         <Footer></Footer>
       </div>
     </>
